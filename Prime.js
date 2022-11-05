@@ -1,10 +1,11 @@
 let N = 13;
-
+   factor =0
  for(i=0;i<=N;i++){
  	if(N%i==1){
- 		count++;
+ 		factor++;
  	}
- }if(count==2){
+ }if(factor==2){
  	console.log("Prime");
-
- }else cconsole.log("NA");
+ }else{
+ 	console.log("NA");
+ }
